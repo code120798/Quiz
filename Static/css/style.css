@@ -61,7 +61,7 @@ h2{
 .btn:hover{
 	cursor: pointer;
 	box-shadow: 0 0.4rem 1.4rem 0 rgb(0, 114, 244, 0.6);
-	transition: 150ms;
+	transition: transform 150ms;
 	transform: scale(1.03);
 }
 .btn[disabled]:hover {
@@ -114,6 +114,6 @@ input::placeholder{
 }
 .fa-home{
 	margin-left: 1rem;
-	font-size: 2rem rgb(28, 26, 26);
+	font-size: 2rem;
 	color: rgb(28, 26, 26);
 }
