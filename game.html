@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Maths Quiz</title>
+        <link href="./static/css/game.css" rel="stylesheet" type="text/css"/>
+        <link href="./static/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="https://kit.fontawesome.com/ef6c64c6bf.js" crossorigin="anonymous"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="HUD">
+                <div class="HUD-item">
+                    <p id="progressText" class="HUD-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="HUD-item">
+                    <p class="HUD-prefix">
+                        Scores
+                    </p>
+                    <h1 class="HUD-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">What is the Answer to this Question</h1>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Choice1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Choice2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Choice3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Choice4</p>
+            </div>
+        </div>
+    </div>
+    <script src="./static/js/game.js"></script>
+</body>
+</html>

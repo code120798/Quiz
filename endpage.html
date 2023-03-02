@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./static/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="./static/css/tablet.css" rel="stylesheet" type="text/css" media="screen and (max-width:800px)">
+    <link href="./static/css/phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:530px)">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter Your Name Below to Save Your Score!</h2>
+                <input type="text" name="Name" id="username" placeholder="Enter Your Name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+            </form>
+            <a href="./game.html" class="btn">Play Again</a>
+            <a href="./index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="./static/js/endpage.js"></script>
+</body>
+</html>
